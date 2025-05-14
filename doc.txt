@@ -1,0 +1,4 @@
+text-[#304298]
+
+
+hover:bg-[#e2e7ff]

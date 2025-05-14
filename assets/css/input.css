@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Default styles for small screens */
+.ms-container {
+    @apply px-[15px] mx-auto;
+}
+
+@media screen and (min-width: 460px) {
+    .ms-container {
+        @apply px-[20px] mx-auto;
+    }
+}
+
+/* Small devices (sm) - apply different padding */
+@media screen and (min-width: 640px) {
+    .ms-container {
+        @apply px-[25px] mx-auto;
+    }
+}
+
+/* Medium devices (md) - remove padding */
+@media screen and (min-width: 768px) {
+    .ms-container {
+        @apply px-[25px] mx-auto;
+    }
+}
+
+/* Large devices (lg) - remove padding */
+@media screen and (min-width: 1024px) {
+    .ms-container {
+        @apply px-[25px] mx-auto;
+    }
+}
+
+/* Extra Large devices (xl) - remove padding */
+@media screen and (min-width: 1280px) {
+    .ms-container {
+        @apply px-[25px] mx-auto;
+    }
+}
+
+/* Extra Extra Large devices (2xl) - remove padding */
+@media screen and (min-width: 1536px) {
+    .ms-container {
+        @apply px-[15px] mx-auto max-w-[1890px];
+    }
+}
+
+
+
+
+.ms-header {
+    background-color: theme(colors.primary);
+    @apply text-white;
+}
